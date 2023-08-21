@@ -3,8 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/kaheredu/approvals.kaher.edu.in
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R index.html $DEPLOYPATH
-    - /bin/cp -R vite.svg $DEPLOYPATH
+    /bin/cp -R index.html $DEPLOYPATH
+    /bin/cp -R vite.svg $DEPLOYPATH
 
 
     
