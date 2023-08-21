@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kaheredu/approvals.kaher.edu.in
+    - /bin/cp -R . $DEPLOYPATH
