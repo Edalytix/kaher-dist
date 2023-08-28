@@ -1,1 +1,0 @@
-import{r as o,j as t,N as u}from"./index-2a5a4d70.js";import{u as i,N as n}from"./useAuth-95a4ad94.js";const l=({children:e})=>{const[s,r]=o.useState(!1),{loggedIn:a}=i();return a?t.jsxs(t.Fragment,{children:[t.jsx(n,{setShowSideBar:r,showSidebar:s,userView:!0}),e]}):t.jsx(u,{to:"/account/login"})};export{l as default};
